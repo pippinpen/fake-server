@@ -4,7 +4,7 @@ We use the package json-server (with either a generated json file or a file whic
 
 Try it... Clone the repository `git clone git@github.com:pippinpen/fake-server.git` and install the dependancies `yarn`.
 
-Now run `yarn json-server db.json` (or `npx json-server db.json`) to use the static json file, OR `yarn start` (or `npm start`) to use the programitic one in `data.js`, and call the URLs shown in your command line.
+Now run `yarn json-server db.json --port 8000` (or `npx json-server db.json --port 8000`) to use the static json file, OR `yarn start` (or `npm start`) to use the programitic one in `data.js`, and call the URLs shown in your command line.
 
 If you're using `create-react-app` then you may need to set `"proxy": "http://localhost:8000",` in the `package.json`.
 
